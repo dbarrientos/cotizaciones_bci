@@ -1,0 +1,9 @@
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <h1>New Quote</h1>
+
+    <%= render 'form', quote: @quote, clients: @clients %>
+
+    <%= link_to 'Back', quotes_path, class: "btn btn-sm-default" %>
+  </div>
+</div>
